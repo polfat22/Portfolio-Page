@@ -1,0 +1,112 @@
+/* Google Fonts Import for Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Favorit';
+    src: url('path/to/favorit-webfont.woff2') format('woff2'),
+         url('path/to/favorit-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Lato', sans-serif; /* Set default body font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Aligns items to the left, center, and right */
+  padding: 10px;
+  background-color: transparent;
+}
+
+.nav-logo {
+  flex-grow: 1; /* Allows the logo to take up the space on the left */
+  margin-left: 15px;
+}
+
+.nav-links li {
+  margin: 0 10px; /* Spacing between links */
+}
+
+p, footer {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; /* Lighter font weight for body text */
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Favorit', sans-serif;
+  font-size: 25px;
+  padding: 3px;
+}
+
+/* Adjust this to target the logo specifically if needed */
+.nav-logo a {
+  font-weight: 700; /* Make the logo text bolder if desired */
+}
+
+header {
+  background-color: #ffffff;
+  padding: 29px;
+  color: #000;
+  font-weight: 25;
+}
+
+h1, h2, h3 { /* Applying Favorit to all headers */
+  font-family: 'Favorit', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: medium;
+  font-size: 75px; 
+}
+
+
+.underline {
+  text-decoration: underline;
+}
+
+section {
+  text-align: left;
+  margin-left: 25px;
+}
+
+h3 {
+  margin-left: 25px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  justify-content: center;
+}
+
+footer {
+  padding: 10px;
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
